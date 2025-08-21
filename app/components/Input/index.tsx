@@ -1,5 +1,5 @@
 "use client";
-import Icons from "@/app/icons";
+import { Search } from "lucide-react";
 import Row from "../Row";
 import IInputProps from "./interface/IInputProps";
 import { ContainerInput, StyledInput } from "./styles";
@@ -10,7 +10,7 @@ export default function Input(props: IInputProps) {
   return (
     <ContainerInput {...rest}>
       <Row width="100%" alignItems="center" gap={10}>
-        {type === "search" && <Icons name="search" color="#847E98" size={30} />}
+        {type === "search" && <Search />}
         <StyledInput
           type={type || "text"}
           placeholder={placeholder}
