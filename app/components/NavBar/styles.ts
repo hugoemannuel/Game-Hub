@@ -22,7 +22,6 @@ export const SidebarContainer = styled.div<{ isOpen: boolean }>`
     max-width: 280px;
   }
 `;
-
 export const Header = styled.div`
   margin-bottom: 40px;
 `;

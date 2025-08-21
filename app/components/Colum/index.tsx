@@ -1,3 +1,4 @@
+"use client";
 import converToCSS from "@/app/helper/converToCSS";
 import styled from "styled-components";
 import IDefaultContainer from "../interface/IDefaultContainer";

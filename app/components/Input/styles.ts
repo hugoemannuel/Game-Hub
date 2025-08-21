@@ -10,7 +10,7 @@ export const ContainerInput = styled.div<IInputProps>`
   height: ${({ height }) => (height ? height : "40px")};
   margin: ${({ margin }) => (margin ? margin : "0px")};
   background-color: #2c2839;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 15px 15px;
 `;
 
