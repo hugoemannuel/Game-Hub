@@ -9,8 +9,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Inter', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #131118;
+    color: #ffFF;
   }
 
   a {
