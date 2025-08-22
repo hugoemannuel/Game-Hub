@@ -31,6 +31,7 @@ export const Profile = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   cursor: pointer;
 `;
 
@@ -42,5 +43,6 @@ export const Notification = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #2c2839;
+  flex-shrink: 0;
   cursor: pointer;
 `;

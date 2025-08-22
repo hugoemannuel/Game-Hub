@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Game Hub — Sua Loja de Games Ideal
 
-## Getting Started
+> Já pensou como seria ter a sua **própria loja de games**?  
+> Pensando nisso, desenvolvi o **Game Hub** utilizando **Next.js** e **Styled Components**, idealizando como seria a minha loja de games perfeita.
 
-First, run the development server:
+## ✨ Sobre o Projeto
+
+O **Game Hub** é um projeto pessoal de portfólio que simula uma loja virtual de games.  
+Aqui, o usuário pode:
+
+- 📌 Explorar uma lista de jogos com imagem, título, descrição e gênero.
+- 🔍 Pesquisar jogos diretamente pelo título.
+- 🖼️ Visualizar cards com efeito responsivo e estilização personalizada.
+- ⚡ Navegar com uma interface fluida e moderna.
+
+O objetivo principal foi **aprender e aplicar conceitos de frontend moderno** em um projeto realista, além de trabalhar boas práticas de **componentização e UI/UX**.
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/) — Framework React para aplicações web.
+- [Styled Components](https://styled-components.com/) — Estilização com CSS-in-JS.
+- [React Query](https://tanstack.com/query/latest) — Gerenciamento de estado assíncrono.
+- [Lucide Icons](https://lucide.dev/) — Ícones modernos e customizáveis.
+- [TypeScript](https://www.typescriptlang.org/) — Tipagem estática para mais segurança.
+
+## 🚀 Como Rodar Localmente
+
+Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/game-hub.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale as dependências:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn install
+# ou
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Execute o servidor de desenvolvimento:
 
-## Learn More
+```bash
+yarn dev
+# ou
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Acesse no navegador:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Preview
 
-## Deploy on Vercel
+## 👨‍💻 Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feito com 💜 por **[Hugo Emannuel]**.  
+👉 [LinkedIn](#https://www.linkedin.com/in/hugoemannuel01) | [Portfólio](#) | [GitHub](#)
