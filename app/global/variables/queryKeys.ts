@@ -4,5 +4,6 @@ export const queryKeys = {
     featured: "list-featured-games",
     topPick: "list-top-pick-games",
     categories: "list-all-categories",
+    details: "list-game-details",
   },
 };
