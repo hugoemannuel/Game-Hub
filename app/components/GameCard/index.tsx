@@ -15,7 +15,7 @@ export default function GameCard(props: IGameCardProps) {
       </ImageWrapper>
 
       <Colum alignItems="flex-start" gap={10}>
-        <h3>{props.title}</h3>
+        {props.title && <h3 style={{ margin: 0 }}>{props.title}</h3>}
         {props.description && (
           <p style={{ margin: 0, color: "#aaa", fontSize: "0.875rem" }}>
             {props.description}

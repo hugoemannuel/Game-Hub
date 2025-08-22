@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <Colum alignItems="flex-start">
-      <h1 style={{ marginBottom: "20px" }}>Novos Jogos !!</h1>
+      <h1 style={{ marginBottom: "20px" }}>Novos jogos </h1>
       <Row wrap="wrap" gap={20} justifyContent="flex-start">
         {isSkeleton
           ? Array.from({ length: 9 }).map((_, index) => (

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "name": "Todos",
+    "genres": []
+  },
+  {
+    "id": 1,
+    "name": "Ação/RPG",
+    "genres": ["Ação", "RPG"]
+  },
+  {
+    "id": 2,
+    "name": "Multiplayer",
+    "genres": ["Multiplayer", "MOBA", "Battle Royale"]
+  },
+  {
+    "id": 3,
+    "name": "Aventura",
+    "genres": ["Aventura", "Mundo Aberto"]
+  },
+  {
+    "id": 4,
+    "name": "Simulação/Puzzle",
+    "genres": ["Simulação", "Puzzle", "Casual"]
+  }
+]
