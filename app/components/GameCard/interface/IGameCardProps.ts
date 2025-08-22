@@ -4,4 +4,5 @@ export interface IGameCardProps extends IComponentsProps {
   image: string;
   title?: string;
   description?: string;
+  onClick?: () => void;
 }

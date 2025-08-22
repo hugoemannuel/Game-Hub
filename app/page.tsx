@@ -1,7 +1,9 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+
 import Colum from "./components/Colum";
 import GameCard from "./components/GameCard";
 import Row from "./components/Row";
@@ -13,6 +15,7 @@ import { IGame } from "./service/interface/IGame";
 
 export default function Home() {
   const { search } = useSearch();
+  const router = useRouter();
   const searchDebounce = useDebounce(search, 500);
   const { data, isLoading } = useQuery({
     queryKey: [queryKeys.games.list],
@@ -47,7 +50,12 @@ export default function Home() {
               <GameCard skeleton width="30%" key={index} image="" />
             ))
           : filtered.map((game) => (
-              <GameCard width="30%" key={game.id} {...game} />
+              <GameCard
+                onClick={() => router.push(`/game/${game.id}`)}
+                width="30%"
+                key={game.id}
+                {...game}
+              />
             ))}
       </Row>
     </Colum>

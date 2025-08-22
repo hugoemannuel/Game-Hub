@@ -1,6 +1,7 @@
 "use client";
 import Colum from "@/app/components/Colum";
 import { useQuery } from "@tanstack/react-query";
+import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import GameCard from "../components/GameCard";
 import Pill from "../components/Pill";
@@ -13,6 +14,8 @@ import { IGame } from "../service/interface/IGame";
 
 export default function Store() {
   const { search } = useSearch();
+  const router = useRouter();
+
   const searchDebounce = useDebounce(search, 500);
 
   const { data: allGames, isLoading } = useQuery({
@@ -80,7 +83,12 @@ export default function Store() {
                 <GameCard skeleton width="30%" key={index} image="" />
               ))
             : filteredFeatured.map((game) => (
-                <GameCard width="30%" key={game.id} {...game} />
+                <GameCard
+                  width="30%"
+                  onClick={() => router.push(`/game/${game.id}`)}
+                  key={game.id}
+                  {...game}
+                />
               ))}
         </Row>
       </Colum>
@@ -119,6 +127,7 @@ export default function Store() {
                   key={game.id}
                   image={game.image}
                   title={game.title}
+                  onClick={() => router.push(`/game/${game.id}`)}
                 />
               ))}
         </Row>
