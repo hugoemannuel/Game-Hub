@@ -9,7 +9,14 @@ export const Container = styled.div`
   margin-left: ${NAVBAR_WIDTH};
   width: calc(100% - ${NAVBAR_WIDTH});
   min-height: 100vh;
+  padding-top: 96px;
   box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+    width: 100%;
+    padding-top: 80px;
+  }
 `;
 
 export const Section = styled.section`
@@ -18,7 +25,6 @@ export const Section = styled.section`
   flex-direction: column;
   margin-top: 20px;
   padding: 24px;
-
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;

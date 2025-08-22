@@ -1,5 +1,4 @@
 "use client";
-
 import styled from "styled-components";
 
 export const SidebarContainer = styled.div<{ isOpen: boolean }>`
@@ -20,8 +19,10 @@ export const SidebarContainer = styled.div<{ isOpen: boolean }>`
       props.isOpen ? "translateX(0)" : "translateX(-100%)"};
     width: 100%;
     max-width: 280px;
+    z-index: 1001;
   }
 `;
+
 export const Header = styled.div`
   margin-bottom: 40px;
 `;
