@@ -1,12 +1,9 @@
-import api from "../lib/Axios/api";
-import queryFormatter from "./utils/queryFormatter";
-
-export default async function allGames() {
-  const URL = queryFormatter({ route: "games", querys: {} });
-  try {
-    const response = await api.get(URL);
-    return response.data;
-  } catch (error) {
-    console.error("Erro ao buscar jogos:", error);
-  }
+import data from "../service/data/data.json";
+import { IGame } from "./interface/IGame";
+export default function allGames(): Promise<IGame[]> {
+  return new Promise<IGame[]>((resolve) => {
+    setTimeout(() => {
+      resolve(data);
+    }, 1200);
+  });
 }

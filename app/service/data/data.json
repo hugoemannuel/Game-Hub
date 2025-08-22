@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1091500,
+    "title": "Cyberpunk 2077",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+    "genre": "RPG, Ação",
+    "description": "Cyberpunk 2077 é um RPG de mundo aberto ambientado em Night City.",
+    "trailer": "https://www.youtube.com/watch?v=FknHjl7eQ6o",
+    "reviews": [
+      {"name":"Lucas Silva","date":"2023-07-12","review":"Incrível mundo aberto, gráficos fantásticos.","rating":4},
+      {"name":"Ana Costa","date":"2023-06-08","review":"Ótima história, mas o combate poderia ser melhor.","rating":3}
+    ]
+  },
+  {
+    "id": 292030,
+    "title": "The Witcher 3: Wild Hunt",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg",
+    "genre": "RPG, Ação",
+    "description": "Jogue como Geralt de Rívia em uma jornada épica pelo continente.",
+    "trailer": "https://www.youtube.com/watch?v=c0i88t0Kacs",
+    "reviews":[
+      {"name":"João Pereira","date":"2023-05-20","review":"Um dos melhores RPGs de todos os tempos.","rating":5},
+      {"name":"Maria Oliveira","date":"2023-04-15","review":"Mundo incrível, mas alguns bugs me frustraram.","rating":4}
+    ]
+  },
+  {
+    "id": 570,
+    "title": "Dota 2",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg",
+    "genre": "MOBA",
+    "description": "Dota 2 é um MOBA competitivo em que duas equipes de cinco jogadores batalham para destruir a base inimiga.",
+    "trailer": "https://www.youtube.com/watch?v=F8i7dIhpl6Y",
+    "reviews":[
+      {"name":"Pedro Santos","date":"2023-06-01","review":"Competitivo e divertido, curva de aprendizado alta.","rating":4},
+      {"name":"Camila Ferreira","date":"2023-05-10","review":"Ótimo MOBA, algumas partidas podem ser frustrantes.","rating":3}
+    ]
+  },
+  {
+    "id": 546670,
+    "title": "Valorant",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/546670/header.jpg",
+    "genre": "FPS, Competitivo",
+    "description": "Valorant é um jogo de tiro tático em primeira pessoa com personagens com habilidades únicas.",
+    "trailer": "https://www.youtube.com/watch?v=wtzTTrF8n2c",
+    "reviews":[
+      {"name":"Ricardo Lima","date":"2023-07-01","review":"Ótimo FPS tático, muito estratégico.","rating":5},
+      {"name":"Fernanda Gomes","date":"2023-06-18","review":"Boa jogabilidade, mas matchmaking ainda precisa melhorar.","rating":4}
+    ]
+  },
+  {
+    "id": 945360,
+    "title": "Among Us",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg",
+    "genre": "Multiplayer, Casual",
+    "description": "Among Us é um jogo multiplayer de dedução social, onde os jogadores descobrem quem é o impostor.",
+    "trailer": "https://www.youtube.com/watch?v=NSJ-sCNRJjk",
+    "reviews":[
+      {"name":"Gabriel Martins","date":"2023-05-25","review":"Divertido para jogar com amigos, viciante.","rating":5},
+      {"name":"Isabela Rocha","date":"2023-05-12","review":"Jogo simples mas muito divertido.","rating":4}
+    ]
+  },
+  {
+    "id": 1174180,
+    "title": "Red Dead Redemption 2",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
+    "genre": "Aventura, RPG",
+    "description": "Red Dead Redemption 2 é um jogo de mundo aberto que segue Arthur Morgan e a gangue Van der Linde.",
+    "trailer": "https://www.youtube.com/watch?v=eaW0tYpxyp0",
+    "reviews":[
+      {"name":"Lucas Almeida","date":"2023-01-20","review":"História épica e mundo incrível.","rating":5},
+      {"name":"Mariana Costa","date":"2022-12-15","review":"Ótimo, mas pesado para PCs fracos.","rating":4}
+    ]
+  },
+  {
+    "id": 225100,
+    "title": "Minecraft",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/225100/header.jpg",
+    "genre": "Sandbox, Aventura",
+    "description": "Minecraft é um jogo de construção e sobrevivência em mundo gerado proceduralmente.",
+    "trailer": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+    "reviews":[
+      {"name":"Pedro Lima","date":"2023-01-10","review":"Criativo e divertido para todas as idades.","rating":5},
+      {"name":"Ana Pereira","date":"2022-12-05","review":"Jogo infinito, recomendo para crianças e adultos.","rating":5}
+    ]
+  },
+  {
+    "id": 1145360,
+    "title": "League of Legends",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+    "genre": "MOBA",
+    "description": "League of Legends é um MOBA competitivo em que duas equipes de cinco jogadores competem para destruir a base inimiga.",
+    "trailer": "https://www.youtube.com/watch?v=RZVY3DW2e_o",
+    "reviews":[
+      {"name":"Renato Silva","date":"2023-01-05","review":"Competitivo e viciante, mas tóxico às vezes.","rating":4},
+      {"name":"Carla Oliveira","date":"2022-12-20","review":"Excelente MOBA, ótima variedade de campeões.","rating":5}
+    ]
+  },
+  {
+    "id": 546560,
+    "title": "Half-Life: Alyx",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/546560/header.jpg",
+    "genre": "FPS, VR",
+    "description": "Half-Life: Alyx é um jogo de realidade virtual situado entre os eventos de Half-Life e Half-Life 2.",
+    "trailer": "https://www.youtube.com/watch?v=O66Q6tXYbCo",
+    "reviews":[
+      {"name":"Mateus Souza","date":"2022-12-01","review":"Experiência VR incrível, imersiva e detalhada.","rating":5},
+      {"name":"Larissa Rocha","date":"2022-11-15","review":"Muito bom, mas exige PC potente e VR.","rating":4}
+    ]
+  }
+]
