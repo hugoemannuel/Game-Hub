@@ -1,3 +1,6 @@
+"use client";
+import { useSearch } from "@/app/context/SearchContext";
+import { Bell, UserCircle } from "lucide-react";
 import Input from "../Input";
 import {
   HeaderWrapper,
@@ -8,13 +11,25 @@ import {
 } from "./styles";
 
 export default function Header() {
+  const { search, setSearch } = useSearch();
+
   return (
     <HeaderWrapper>
-      <Title>MuSteam</Title>
+      <Title>Game Hub</Title>
       <RightWrapper>
-        <Input type="search" width={"50%"} placeholder="Pesquisar" />
-        <Notification />
-        <Profile />
+        <Input
+          type="search"
+          width={"50%"}
+          placeholder="Pesquisar"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+        <Notification>
+          <Bell />
+        </Notification>
+        <Profile>
+          <UserCircle />
+        </Profile>
       </RightWrapper>
     </HeaderWrapper>
   );

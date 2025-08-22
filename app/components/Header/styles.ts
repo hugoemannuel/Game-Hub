@@ -28,11 +28,19 @@ export const Profile = styled.div`
   height: 40px;
   border-radius: 50%;
   background-color: #2c2839;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 `;
 
 export const Notification = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2c2839;
+  cursor: pointer;
 `;

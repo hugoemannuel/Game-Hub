@@ -15,10 +15,21 @@ export const ContainerInput = styled.div<IInputProps>`
 `;
 
 export const StyledInput = styled.input`
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 0;
   border: none;
   outline: none;
   background: transparent;
   font-size: inherit;
   color: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+`;
+
+export const IconWrapper = styled.div`
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;

@@ -2,7 +2,7 @@
 import { Search } from "lucide-react";
 import Row from "../Row";
 import IInputProps from "./interface/IInputProps";
-import { ContainerInput, StyledInput } from "./styles";
+import { ContainerInput, IconWrapper, StyledInput } from "./styles";
 
 export default function Input(props: IInputProps) {
   const { type, placeholder, value, onChange, ...rest } = props;
@@ -10,7 +10,11 @@ export default function Input(props: IInputProps) {
   return (
     <ContainerInput {...rest}>
       <Row width="100%" alignItems="center" gap={10}>
-        {type === "search" && <Search />}
+        {type === "search" && (
+          <IconWrapper>
+            <Search />
+          </IconWrapper>
+        )}
         <StyledInput
           type={type || "text"}
           placeholder={placeholder}
