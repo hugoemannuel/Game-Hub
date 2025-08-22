@@ -1,6 +1,6 @@
 "use client";
 import { useSearch } from "@/app/context/SearchContext";
-import { Bell, UserCircle } from "lucide-react";
+import { Bell, User } from "lucide-react";
 import Input from "../Input";
 import {
   HeaderWrapper,
@@ -28,7 +28,7 @@ export default function Header() {
           <Bell />
         </Notification>
         <Profile>
-          <UserCircle />
+          <User />
         </Profile>
       </RightWrapper>
     </HeaderWrapper>
