@@ -1,5 +1,12 @@
 "use client";
-import { createContext, ReactNode, useContext, useState } from "react";
+import { usePathname } from "next/navigation";
+import {
+  createContext,
+  ReactNode,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 const SearchContext = createContext<{
   search: string;
@@ -8,6 +15,11 @@ const SearchContext = createContext<{
 
 export const SearchProvider = ({ children }: { children: ReactNode }) => {
   const [search, setSearch] = useState("");
+  const pathname = usePathname();
+  useEffect(() => {
+    setSearch("");
+  }, [pathname]);
+
   return (
     <SearchContext.Provider value={{ search, setSearch }}>
       {children}

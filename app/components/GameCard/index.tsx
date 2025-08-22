@@ -1,8 +1,7 @@
-import Image from "next/image";
 import Colum from "../Colum";
-import Row from "../Row";
 import { SkeletonBox } from "../SkeletonBox";
 import { IGameCardProps } from "./interface/IGameCardProps";
+import { CardContainer, CardImage, ImageWrapper } from "./styles";
 
 export default function GameCard(props: IGameCardProps) {
   if (props.skeleton) {
@@ -10,32 +9,10 @@ export default function GameCard(props: IGameCardProps) {
   }
 
   return (
-    <Colum
-      justifyContent="flex-start"
-      gap={8}
-      padding={"8px"}
-      style={{
-        borderRadius: "20px",
-        overflow: "hidden",
-      }}
-      {...props}
-    >
-      <Row
-        width={"100%"}
-        height={"200px"}
-        position="relative"
-        style={{
-          borderRadius: "16px",
-          overflow: "hidden",
-        }}
-      >
-        <Image
-          src={props.image}
-          alt={props.title || "Game Card"}
-          fill
-          style={{ objectFit: "cover" }}
-        />
-      </Row>
+    <CardContainer justifyContent="flex-start" {...props}>
+      <ImageWrapper>
+        <CardImage src={props.image} alt={props.title || "Game Card"} fill />
+      </ImageWrapper>
 
       <Colum alignItems="flex-start" gap={10}>
         <h3>{props.title}</h3>
@@ -45,6 +22,6 @@ export default function GameCard(props: IGameCardProps) {
           </p>
         )}
       </Colum>
-    </Colum>
+    </CardContainer>
   );
 }

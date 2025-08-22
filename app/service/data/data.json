@@ -35,18 +35,7 @@
       {"name":"Camila Ferreira","date":"2023-05-10","review":"Ótimo MOBA, algumas partidas podem ser frustrantes.","rating":3}
     ]
   },
-  {
-    "id": 546670,
-    "title": "Valorant",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/546670/header.jpg",
-    "genre": "FPS, Competitivo",
-    "description": "Valorant é um jogo de tiro tático em primeira pessoa com personagens com habilidades únicas.",
-    "trailer": "https://www.youtube.com/watch?v=wtzTTrF8n2c",
-    "reviews":[
-      {"name":"Ricardo Lima","date":"2023-07-01","review":"Ótimo FPS tático, muito estratégico.","rating":5},
-      {"name":"Fernanda Gomes","date":"2023-06-18","review":"Boa jogabilidade, mas matchmaking ainda precisa melhorar.","rating":4}
-    ]
-  },
+
   {
     "id": 945360,
     "title": "Among Us",
@@ -72,29 +61,17 @@
     ]
   },
   {
-    "id": 225100,
-    "title": "Minecraft",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/225100/header.jpg",
-    "genre": "Sandbox, Aventura",
-    "description": "Minecraft é um jogo de construção e sobrevivência em mundo gerado proceduralmente.",
-    "trailer": "https://www.youtube.com/watch?v=MmB9b5njVbA",
-    "reviews":[
-      {"name":"Pedro Lima","date":"2023-01-10","review":"Criativo e divertido para todas as idades.","rating":5},
-      {"name":"Ana Pereira","date":"2022-12-05","review":"Jogo infinito, recomendo para crianças e adultos.","rating":5}
-    ]
-  },
-  {
-    "id": 1145360,
-    "title": "League of Legends",
-    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
-    "genre": "MOBA",
-    "description": "League of Legends é um MOBA competitivo em que duas equipes de cinco jogadores competem para destruir a base inimiga.",
-    "trailer": "https://www.youtube.com/watch?v=RZVY3DW2e_o",
-    "reviews":[
-      {"name":"Renato Silva","date":"2023-01-05","review":"Competitivo e viciante, mas tóxico às vezes.","rating":4},
-      {"name":"Carla Oliveira","date":"2022-12-20","review":"Excelente MOBA, ótima variedade de campeões.","rating":5}
-    ]
-  },
+  "id": 1145360,
+  "title": "Hades",
+  "image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+  "genre": "Roguelike, Dungeon Crawler",
+  "description": "Em Hades, você assume o papel de Zagreus, filho de Hades, tentando escapar do Submundo. Cada tentativa oferece novas combinações de armas, poderes e encontros, mantendo a experiência sempre fresca.",
+  "trailer": "https://www.youtube.com/watch?v=NDMXQo_LalQ",
+  "reviews":[
+    {"name":"Renato Silva","date":"2023-01-05","review":"Combate rápido, viciante e visual incrível.","rating":5},
+    {"name":"Carla Oliveira","date":"2022-12-20","review":"Narrativa envolvente e jogabilidade fluida.","rating":5}
+  ]
+  }, 
   {
     "id": 546560,
     "title": "Half-Life: Alyx",
@@ -105,6 +82,90 @@
     "reviews":[
       {"name":"Mateus Souza","date":"2022-12-01","review":"Experiência VR incrível, imersiva e detalhada.","rating":5},
       {"name":"Larissa Rocha","date":"2022-11-15","review":"Muito bom, mas exige PC potente e VR.","rating":4}
+    ]
+  },
+  {
+    "id": 620,
+    "title": "Portal 2",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
+    "genre": "Puzzle, Aventura",
+    "description": "Portal 2 é um jogo de quebra-cabeças em primeira pessoa que desafia sua lógica e criatividade.",
+    "trailer": "https://www.youtube.com/watch?v=tax4e4hBBZc",
+    "reviews": [
+      {"name":"Bruno Costa","date":"2023-03-15","review":"Quebra-cabeças brilhantes e história divertida.","rating":5},
+      {"name":"Clara Mendes","date":"2023-02-20","review":"Muito criativo, adorei os personagens.","rating":5}
+    ]
+  },
+  {
+    "id": 578080,
+    "title": "PUBG: Battlegrounds",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg",
+    "genre": "Battle Royale, FPS",
+    "description": "PUBG é um battle royale onde 100 jogadores lutam pela sobrevivência em uma ilha cheia de ação.",
+    "trailer": "https://www.youtube.com/watch?v=odM92ap8_c0",
+    "reviews": [
+      {"name":"Felipe Santos","date":"2023-06-05","review":"Muito divertido, mas algumas partidas são injustas.","rating":4},
+      {"name":"Juliana Rocha","date":"2023-05-12","review":"Ótima experiência, gráficos bons.","rating":4}
+    ]
+  },
+  {
+    "id": 271590,
+    "title": "Grand Theft Auto V",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
+    "genre": "Ação, Mundo Aberto",
+    "description": "GTA V é um jogo de mundo aberto com missões emocionantes e vida urbana intensa.",
+    "trailer": "https://www.youtube.com/watch?v=QkkoHAzjnUs",
+    "reviews": [
+      {"name":"Rodrigo Lima","date":"2023-04-10","review":"Missões incríveis e mundo realista.","rating":5},
+      {"name":"Patrícia Martins","date":"2023-03-05","review":"Muito divertido, mas exige atenção para mods.","rating":4}
+    ]
+  },
+  {
+    "id": 3812284,
+    "title": "Dead by Daylight",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/381210/header.jpg",
+    "genre": "Horror, Multiplayer",
+    "description": "Dead by Daylight é um jogo multiplayer de sobrevivência e horror, onde um assassino caça quatro sobreviventes.",
+    "trailer": "https://www.youtube.com/watch?v=xM8nO_1cDj0",
+    "reviews": [
+      {"name":"Marcos Almeida","date":"2023-07-02","review":"Muito suspense e partidas emocionantes.","rating":4},
+      {"name":"Renata Souza","date":"2023-06-10","review":"Ótimo jogo de terror cooperativo.","rating":5}
+    ]
+  },
+  {
+    "id": 381210,
+    "title": "Stardew Valley",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
+    "genre": "Simulação, RPG",
+    "description": "Stardew Valley é um jogo de simulação agrícola, onde você planta, pesca, e constrói sua fazenda.",
+    "trailer": "https://www.youtube.com/watch?v=ot7uXNQskhs",
+    "reviews": [
+      {"name":"Luana Costa","date":"2023-05-18","review":"Relaxante e viciante, perfeito para passar o tempo.","rating":5},
+      {"name":"Gustavo Lima","date":"2023-04-22","review":"Adorei construir minha fazenda e interagir com a cidade.","rating":5}
+    ]
+  },
+  {
+    "id": 381840,
+    "title": "Monster Hunter: World",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg",
+    "genre": "Ação, RPG",
+    "description": "Caçe monstros gigantes em um mundo vivo e dinâmico, sozinho ou com amigos.",
+    "trailer": "https://www.youtube.com/watch?v=2sFQh1C8f30",
+    "reviews":[
+      {"name":"Fernando Souza","date":"2023-03-10","review":"Combate incrível, gráficos lindos.","rating":5},
+      {"name":"Patrícia Lima","date":"2023-02-15","review":"Muito divertido, mas exige prática.","rating":4}
+    ]
+  },
+  {
+    "id": 730,
+    "title": "Counter-Strike: Global Offensive",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+    "genre": "FPS, Competitivo",
+    "description": "CS:GO é um FPS tático competitivo onde duas equipes disputam para completar objetivos.",
+    "trailer": "https://www.youtube.com/watch?v=edYCtaNueQY",
+    "reviews":[
+      {"name":"André Martins","date":"2023-01-20","review":"Clássico, competitivo e divertido.","rating":5},
+      {"name":"Carolina Ribeiro","date":"2023-01-10","review":"Ótima experiência, mas às vezes tóxico.","rating":4}
     ]
   }
 ]
