@@ -3,6 +3,7 @@ import Colum from "@/app/components/Colum";
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useMemo, useState } from "react";
 import GameCard from "../components/GameCard";
+import Pill from "../components/Pill";
 import Row from "../components/Row";
 import { useSearch } from "../context/SearchContext";
 import { queryKeys } from "../global/variables/queryKeys";
@@ -19,17 +20,22 @@ export default function Store() {
     queryFn: gamesService.allGames,
   });
 
+  const { data: categories, isLoading: categoriesLoading } = useQuery({
+    queryKey: [queryKeys.games.categories],
+    queryFn: gamesService.allCategories,
+  });
+
   const featured = useMemo(() => allGames?.slice(0, 3) || [], [allGames]);
   const topPick = useMemo(
     () => allGames?.slice(3, allGames?.length) || [],
     [allGames]
   );
-
+  const [selectedCategory, setSelectedCategory] = useState<number>(0);
   const [filteredFeatured, setFilteredFeatured] = useState<IGame[]>(featured);
   const [searchLoading, setSearchLoading] = useState(false);
 
   useEffect(() => {
-    if (!featured) return;
+    if (!allGames) return;
 
     setSearchLoading(true);
     const timeout = setTimeout(() => {
@@ -37,7 +43,7 @@ export default function Store() {
         setFilteredFeatured(featured);
       } else {
         setFilteredFeatured(
-          featured.filter((game) =>
+          allGames.filter((game) =>
             game.title.toLowerCase().includes(searchDebounce.toLowerCase())
           )
         );
@@ -46,10 +52,23 @@ export default function Store() {
     }, 300);
 
     return () => clearTimeout(timeout);
-  }, [searchDebounce, featured]);
+  }, [searchDebounce, allGames, featured]);
+
+  const filteredTopPicks = useMemo(() => {
+    if (selectedCategory === 0) return topPick;
+
+    const selected = categories?.find((c) => c.id === selectedCategory);
+    if (!selected) return topPick;
+
+    return topPick.filter((game) => {
+      const gameGenres = game.genre.split(",").map((g) => g.trim());
+      return selected.genres.some((catGenre) => gameGenres.includes(catGenre));
+    });
+  }, [topPick, categories, selectedCategory]);
 
   const showSkeletonFeatured = isLoading || searchLoading;
   const showSkeletonTopPick = isLoading;
+  const showSkeletonCategories = categoriesLoading;
 
   return (
     <Colum gap={50}>
@@ -68,14 +87,35 @@ export default function Store() {
 
       <Colum alignItems="flex-start">
         <h1 style={{ marginBottom: "20px" }}>Mais jogados</h1>
+        <Row
+          justifyContent="flex-start"
+          alignItems="flex-start"
+          gap={10}
+          width={"50%"}
+          wrap="wrap"
+          margin={"5px 0px 15px 0px"}
+        >
+          {showSkeletonCategories
+            ? Array.from({ length: 5 }).map((_, index) => (
+                <Pill key={index} text="" skeleton />
+              ))
+            : categories?.map((category) => (
+                <Pill
+                  key={category.id}
+                  text={category.name}
+                  focused={category.id === selectedCategory}
+                  onClick={() => setSelectedCategory(category.id)}
+                />
+              ))}
+        </Row>
         <Row wrap="wrap" gap={10} justifyContent="flex-start">
           {showSkeletonTopPick
             ? Array.from({ length: 7 }).map((_, index) => (
                 <GameCard skeleton width="15%" key={index} image="" />
               ))
-            : topPick.map((game) => (
+            : filteredTopPicks.map((game) => (
                 <GameCard
-                  width="15%"
+                  width="18%"
                   key={game.id}
                   image={game.image}
                   title={game.title}

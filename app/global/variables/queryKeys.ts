@@ -3,5 +3,6 @@ export const queryKeys = {
     list: "list-all-games",
     featured: "list-featured-games",
     topPick: "list-top-pick-games",
+    categories: "list-all-categories",
   },
 };
