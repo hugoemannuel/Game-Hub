@@ -1,4 +1,3 @@
-// lib/registry.tsx
 "use client";
 
 import { useServerInsertedHTML } from "next/navigation";
@@ -14,7 +13,6 @@ export default function StyledComponentsRegistry({
 
   useServerInsertedHTML(() => {
     const styles = styledComponentsStyleSheet.getStyleElement();
-    styledComponentsStyleSheet.instance.clearTag();
     return <>{styles}</>;
   });
 
