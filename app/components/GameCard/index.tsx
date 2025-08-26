@@ -1,3 +1,4 @@
+// GameCard component with fixes
 import Colum from "../Colum";
 import { SkeletonBox } from "../SkeletonBox";
 import { IGameCardProps } from "./interface/IGameCardProps";
@@ -11,7 +12,12 @@ export default function GameCard(props: IGameCardProps) {
   return (
     <CardContainer justifyContent="flex-start" {...props}>
       <ImageWrapper>
-        <CardImage src={props.image} alt={props.title || "Game Card"} fill />
+        <CardImage
+          src={props.image}
+          alt={props.title || "Game Card"}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
       </ImageWrapper>
 
       <Colum alignItems="flex-start" gap={10}>

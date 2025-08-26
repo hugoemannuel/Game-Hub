@@ -9,14 +9,27 @@ export default function StyledComponentsRegistry({
 }: {
   children: React.ReactNode;
 }) {
-  const [styledComponentsStyleSheet] = useState(() => new ServerStyleSheet());
+  // Só criar no servidor
+  const [styledComponentsStyleSheet] = useState(() => {
+    if (typeof window === "undefined") {
+      return new ServerStyleSheet();
+    }
+    return null;
+  });
 
   useServerInsertedHTML(() => {
+    if (!styledComponentsStyleSheet) return null;
+
     const styles = styledComponentsStyleSheet.getStyleElement();
+    styledComponentsStyleSheet.instance.clearTag();
     return <>{styles}</>;
   });
 
   if (typeof window !== "undefined") {
+    return <>{children}</>;
+  }
+
+  if (!styledComponentsStyleSheet) {
     return <>{children}</>;
   }
 
