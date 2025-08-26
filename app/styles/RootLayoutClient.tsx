@@ -1,3 +1,4 @@
+// styles/RootLayoutClient.tsx
 "use client";
 
 import React from "react";
@@ -13,6 +14,8 @@ export default function RootLayoutClient({
   const theme = {
     colors: {
       primary: "#0070f3",
+      background: "#131118",
+      text: "#FFFFFF",
     },
   };
 
