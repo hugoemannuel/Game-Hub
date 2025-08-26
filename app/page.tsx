@@ -57,7 +57,9 @@ export default function Home() {
                 onClick={() => router.push(`/game/${game.id}`)}
                 width="30%"
                 key={game.id}
-                {...game}
+                image={game.image}
+                title={game.title}
+                description={game.description}
               />
             ))}
       </Row>

@@ -37,17 +37,16 @@ const NavBar = () => {
   ];
 
   return (
-    <SidebarContainer isOpen={true}>
+    <SidebarContainer $isOpen={true}>
       <Header>
         <Title>Hugo</Title>
         <Subtitle>Bem vindo de volta</Subtitle>
       </Header>
-
       <Nav>
         {menuItems.map((item, index) => (
           <NavItem
             key={index}
-            active={activeItem === index}
+            $active={activeItem === index}
             onClick={() => handleItemClick(index, item.href)}
           >
             <item.icon />

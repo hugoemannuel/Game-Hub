@@ -90,7 +90,9 @@ export default function Store() {
                   width="30%"
                   onClick={() => router.push(`/game/${game.id}`)}
                   key={game.id}
-                  {...game}
+                  image={game.image}
+                  title={game.title}
+                  description={game.description}
                 />
               ))}
         </Row>

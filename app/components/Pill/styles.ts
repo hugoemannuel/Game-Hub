@@ -5,7 +5,9 @@ import styled from "styled-components";
 import Colum from "../Colum";
 import { IPillProps } from "./interface/IPillProps";
 
-export const Container = styled(Colum)<IPillProps>`
+export const Container = styled(Colum).withConfig({
+  shouldForwardProp: (prop) => !["focused"].includes(prop),
+})<IPillProps>`
   background: ${({ focused }) =>
     focused ? "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" : "#2c2839"};
   align-items: center;

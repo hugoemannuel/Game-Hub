@@ -1,7 +1,7 @@
 "use client";
 import styled from "styled-components";
 
-export const SidebarContainer = styled.div<{ isOpen: boolean }>`
+export const SidebarContainer = styled.div<{ $isOpen: boolean }>`
   position: fixed;
   top: 0;
   left: 0;
@@ -16,13 +16,12 @@ export const SidebarContainer = styled.div<{ isOpen: boolean }>`
 
   @media (max-width: 768px) {
     transform: ${(props) =>
-      props.isOpen ? "translateX(0)" : "translateX(-100%)"};
+      props.$isOpen ? "translateX(0)" : "translateX(-100%)"};
     width: 100%;
     max-width: 280px;
     z-index: 1001;
   }
 `;
-
 export const Header = styled.div`
   margin-bottom: 40px;
 `;
@@ -50,7 +49,7 @@ export const Nav = styled.nav`
   gap: 8px;
 `;
 
-export const NavItem = styled.a<{ active: boolean }>`
+export const NavItem = styled.a<{ $active: boolean }>`
   display: flex;
   align-items: center;
   gap: 16px;
@@ -62,9 +61,9 @@ export const NavItem = styled.a<{ active: boolean }>`
   font-weight: 500;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-  background: ${(props) => (props.active ? "#2C2839" : "transparent")};
+  background: ${(props) => (props.$active ? "#2C2839" : "transparent")};
   border: ${(props) =>
-    props.active ? "1px solid #2C2839" : "1px solid transparent"};
+    props.$active ? "1px solid #2C2839" : "1px solid transparent"};
 
   &:hover {
     background: rgba(255, 255, 255, 0.1);

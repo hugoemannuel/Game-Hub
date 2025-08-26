@@ -5,7 +5,10 @@ const shine = keyframes`
   100% { background-position: 200px 0; }
 `;
 
-export const StyledSkeletonBox = styled.div<{
+export const StyledSkeletonBox = styled.div.withConfig({
+  shouldForwardProp: (prop) =>
+    !["width", "height", "borderRadius"].includes(prop),
+})<{
   width: string | number;
   height: string | number;
   borderRadius: string | number;

@@ -3,7 +3,25 @@ import converToCSS from "@/app/helper/converToCSS";
 import styled from "styled-components";
 import IDefaultContainer from "../interface/IDefaultContainer";
 
-const Row = styled.div<IDefaultContainer>`
+const Row = styled.div.withConfig({
+  shouldForwardProp: (prop) =>
+    ![
+      "justifyContent",
+      "alignItems",
+      "alignSelf",
+      "flex",
+      "wrap",
+      "position",
+      "bottom",
+      "top",
+      "background",
+      "padding",
+      "gap",
+      "width",
+      "height",
+      "margin",
+    ].includes(prop),
+})<IDefaultContainer>`
   display: flex;
   flex-direction: row;
   justify-content: ${({ justifyContent }) => justifyContent || "center"};

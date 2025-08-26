@@ -3,13 +3,13 @@ import styled from "styled-components";
 
 const NAVBAR_WIDTH = "280px";
 
-export const Container = styled.div<{ hideHeader?: boolean }>`
+export const Container = styled.div<{ $hideHeader?: boolean }>`
   display: flex;
   flex-direction: column;
   margin-left: ${NAVBAR_WIDTH};
   width: calc(100% - ${NAVBAR_WIDTH});
   min-height: 100vh;
-  padding-top: ${({ hideHeader }) => (hideHeader ? "0" : "96px")};
+  padding-top: ${({ $hideHeader }) => ($hideHeader ? "0" : "96px")};
   box-sizing: border-box;
 
   @media (max-width: 768px) {
