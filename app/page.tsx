@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import Colum from "./components/Colum";
 import GameCard from "./components/GameCard";
 import Row from "./components/Row";
+import Text from "./components/Text";
 import { useSearch } from "./context/SearchContext";
 import { queryKeys } from "./global/variables/queryKeys";
 import useDebounce from "./hooks/useDebounce";
@@ -43,7 +44,9 @@ export default function Home() {
 
   return (
     <Colum alignItems="flex-start">
-      <h1 style={{ marginBottom: "20px" }}>Novos jogos </h1>
+      <Text size="h1" style={{ marginBottom: "20px" }}>
+        Novos jogos
+      </Text>
       <Row wrap="wrap" gap={20} justifyContent="flex-start">
         {isSkeleton
           ? Array.from({ length: 9 }).map((_, index) => (

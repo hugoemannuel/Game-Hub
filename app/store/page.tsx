@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import GameCard from "../components/GameCard";
 import Pill from "../components/Pill";
 import Row from "../components/Row";
+import Text from "../components/Text";
 import { useSearch } from "../context/SearchContext";
 import { queryKeys } from "../global/variables/queryKeys";
 import useDebounce from "../hooks/useDebounce";
@@ -76,7 +77,9 @@ export default function Store() {
   return (
     <Colum gap={50}>
       <Colum alignItems="flex-start">
-        <h1 style={{ marginBottom: "20px" }}>Jogos em destaque</h1>
+        <Text size="h1" style={{ marginBottom: "20px" }}>
+          Jogos em destaque
+        </Text>
         <Row wrap="wrap" gap={20} justifyContent="flex-start">
           {showSkeletonFeatured
             ? Array.from({ length: 3 }).map((_, index) => (
@@ -94,7 +97,9 @@ export default function Store() {
       </Colum>
 
       <Colum alignItems="flex-start">
-        <h1 style={{ marginBottom: "20px" }}>Mais jogados</h1>
+        <Text size="h1" style={{ marginBottom: "20px" }}>
+          Mais jogados
+        </Text>
         <Row
           justifyContent="flex-start"
           alignItems="flex-start"

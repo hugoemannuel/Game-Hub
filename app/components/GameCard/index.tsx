@@ -17,7 +17,18 @@ export default function GameCard(props: IGameCardProps) {
       <Colum alignItems="flex-start" gap={10}>
         {props.title && <h3 style={{ margin: 0 }}>{props.title}</h3>}
         {props.description && (
-          <p style={{ margin: 0, color: "#aaa", fontSize: "0.875rem" }}>
+          <p
+            style={{
+              margin: 0,
+              color: "#aaa",
+              fontSize: "0.875rem",
+              display: "-webkit-box",
+              WebkitLineClamp: 3,
+              WebkitBoxOrient: "vertical",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+            }}
+          >
             {props.description}
           </p>
         )}

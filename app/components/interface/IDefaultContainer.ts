@@ -1,6 +1,8 @@
 import IComponentsProps from "./IComponentsProps";
 
-export default interface IDefaultContainer extends IComponentsProps {
+export default interface IDefaultContainer
+  extends IComponentsProps,
+    React.HTMLAttributes<HTMLDivElement> {
   justifyContent?: React.CSSProperties["justifyContent"];
   alignItems?: React.CSSProperties["alignItems"];
   alignSelf?: React.CSSProperties["alignSelf"];

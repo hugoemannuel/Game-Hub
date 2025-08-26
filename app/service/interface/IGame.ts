@@ -12,5 +12,7 @@ export interface IGame {
   genre: string;
   description: string;
   trailer: string;
+  backImage: string;
   reviews: IReview[];
+  community: string[];
 }

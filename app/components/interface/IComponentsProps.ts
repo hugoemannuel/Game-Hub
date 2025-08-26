@@ -1,5 +1,4 @@
-export default interface IComponentsProps
-  extends React.HTMLAttributes<HTMLDivElement> {
+export default interface IComponentsProps {
   margin?: React.CSSProperties["margin"];
   width?: React.CSSProperties["width"];
   height?: React.CSSProperties["height"];

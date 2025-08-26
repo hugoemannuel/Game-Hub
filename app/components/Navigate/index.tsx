@@ -15,10 +15,9 @@ export default function Navigate(props: INavigateProps) {
 
   return (
     <Colum
-      onClick={props.onClick}
       style={{ cursor: "pointer" }}
-      alignItems="center"
-      gap={5}
+      alignItems="flex-start"
+      gap={10}
       {...props}
     >
       <Text size="h5">{props.text}</Text>
