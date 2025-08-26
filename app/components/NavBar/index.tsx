@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import { BookOpen, Home, ShoppingCart, User } from "lucide-react";
-import { usePathname, useRouter } from "next/navigation"; // 👈 mudar aqui
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import {
   Header,
@@ -13,7 +13,7 @@ import {
 } from "./styles";
 
 const NavBar = () => {
-  const [activeItem, setActiveItem] = useState(0);
+  const [activeItem, setActiveItem] = useState(-1);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -23,9 +23,13 @@ const NavBar = () => {
   };
 
   useEffect(() => {
-    const currentIndex = menuItems.findIndex((item) => item.href === pathname);
-    if (currentIndex !== -1) {
-      setActiveItem(currentIndex);
+    if (pathname) {
+      const currentIndex = menuItems.findIndex(
+        (item) => item.href === pathname
+      );
+      if (currentIndex !== -1) {
+        setActiveItem(currentIndex);
+      }
     }
   }, [pathname]);
 
