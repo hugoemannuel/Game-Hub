@@ -3,6 +3,7 @@ export interface IReview {
   date: string;
   review: string;
   rating: number;
+  avatar: string;
 }
 
 export interface IGame {
@@ -14,5 +15,4 @@ export interface IGame {
   trailer: string;
   backImage: string;
   reviews: IReview[];
-  community: string[];
 }
