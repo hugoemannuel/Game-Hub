@@ -9,6 +9,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
   compiler: {
@@ -16,4 +22,5 @@ const nextConfig: NextConfig = {
   },
   swcMinify: true,
 };
+
 export default nextConfig;
