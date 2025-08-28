@@ -3,6 +3,7 @@ export interface IReview {
   date: string;
   review: string;
   rating: number;
+  avatar: string;
 }
 
 export interface IGame {

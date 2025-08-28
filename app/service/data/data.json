@@ -13,8 +13,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Lucas Silva", "date": "2023-07-12", "review": "Incrível mundo aberto, gráficos fantásticos.", "rating": 4},
-      {"name": "Ana Costa", "date": "2023-06-08", "review": "Ótima história, mas o combate poderia ser melhor.", "rating": 3}
+      {"name": "Lucas Silva", "date": "2023-07-12", "review": "Incrível mundo aberto, gráficos fantásticos.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/12.jpg"},
+      {"name": "Ana Costa", "date": "2023-06-08", "review": "Ótima história, mas o combate poderia ser melhor.", "rating": 3, "avatar": "https://randomuser.me/api/portraits/women/23.jpg"}
     ]
   },
   {
@@ -31,8 +31,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/292030/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "João Pereira", "date": "2023-05-20", "review": "Um dos melhores RPGs de todos os tempos.", "rating": 5},
-      {"name": "Maria Oliveira", "date": "2023-04-15", "review": "Mundo incrível, mas alguns bugs me frustraram.", "rating": 4}
+      {"name": "João Pereira", "date": "2023-05-20", "review": "Um dos melhores RPGs de todos os tempos.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/45.jpg"},
+      {"name": "Maria Oliveira", "date": "2023-04-15", "review": "Mundo incrível, mas alguns bugs me frustraram.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/67.jpg"}
     ]
   },
   {
@@ -49,8 +49,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/570/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Pedro Santos", "date": "2023-06-01", "review": "Competitivo e divertido, curva de aprendizado alta.", "rating": 4},
-      {"name": "Camila Ferreira", "date": "2023-05-10", "review": "Ótimo MOBA, algumas partidas podem ser frustrantes.", "rating": 3}
+      {"name": "Pedro Santos", "date": "2023-06-01", "review": "Competitivo e divertido, curva de aprendizado alta.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/32.jpg"},
+      {"name": "Camila Ferreira", "date": "2023-05-10", "review": "Ótimo MOBA, algumas partidas podem ser frustrantes.", "rating": 3, "avatar": "https://randomuser.me/api/portraits/women/56.jpg"}
     ]
   },
   {
@@ -67,8 +67,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/945360/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Gabriel Martins", "date": "2023-05-25", "review": "Divertido para jogar com amigos, viciante.", "rating": 5},
-      {"name": "Isabela Rocha", "date": "2023-05-12", "review": "Jogo simples mas muito divertido.", "rating": 4}
+      {"name": "Gabriel Martins", "date": "2023-05-25", "review": "Divertido para jogar com amigos, viciante.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/18.jpg"},
+      {"name": "Isabela Rocha", "date": "2023-05-12", "review": "Jogo simples mas muito divertido.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/29.jpg"}
     ]
   },
   {
@@ -77,7 +77,7 @@
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg",
     "backImage": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_hero.jpg",
     "genre": "Aventura, RPG",
-    "description": "Red Dead Redemption 2 é uma épica aventura de mundo aberto sobre a vida no coração dos Estados Unidos. O vasto e atmosférico mundo da fronteira americana oferece uma base para uma experiência multifacetada sobre bandidos em fuga. Com uma narrativa envolvente, você viverá a vida de Arthur Morgan, braço direito da gangue Van der Linde, enquanto eles roubam, lutam e se esforçam para sobreviver na implacável natureza selvagem. O jogo apresenta um nível impressionante de detalhes, desde sistemas climáticos dinâmicos até interações complexas com NPCs, um sistema de honra que afeta a história, atividades como pesca, caça, poker, e um mundo vivo que reage às suas ações com realismo cinematográfico.",
+    "description": "Red Dead Redemption 2 é uma épica aventura de mundo aberto sobre a vida no coração dos Estados Unidos. O vasto e atmosférico mundo da fronteira americana oferece uma base para uma experiência multifacetada sobre bandidos em fuga. Com uma narrativa envolvente, você viverá a vida de Arthur Morgan, braço direito da gangue Van der Linde, enquanto eles roubam, lutam e se esforçam para sobreviver na implacável natureza selvagem. O jogo apresenta um nível impressionante de detalhes, desde sistemas climáticos dinâmicos até interações complexas avec NPCs, um sistema de honra que afeta a história, atividades como pesca, caça, poker, e um mundo vivo que reage às suas ações com realismo cinematográfico.",
     "trailer": "https://www.youtube.com/watch?v=eaW0tYpxyp0",
     "community": [
       "https://cdn.akamai.steamstatic.com/steam/apps/1174180/ss_1.jpg",
@@ -85,8 +85,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/1174180/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Lucas Almeida", "date": "2023-01-20", "review": "História épica e mundo incrível.", "rating": 5},
-      {"name": "Mariana Costa", "date": "2022-12-15", "review": "Ótimo, mas pesado para PCs fracos.", "rating": 4}
+      {"name": "Lucas Almeida", "date": "2023-01-20", "review": "História épica e mundo incrível.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/41.jpg"},
+      {"name": "Mariana Costa", "date": "2022-12-15", "review": "Ótimo, mas pesado para PCs fracos.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/63.jpg"}
     ]
   },
   {
@@ -103,8 +103,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/1145360/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Renato Silva", "date": "2023-01-05", "review": "Combate rápido, viciante e visual incrível.", "rating": 5},
-      {"name": "Carla Oliveira", "date": "2022-12-20", "review": "Narrativa envolvente e jogabilidade fluida.", "rating": 5}
+      {"name": "Renato Silva", "date": "2023-01-05", "review": "Combate rápido, viciante e visual incrível.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/22.jpg"},
+      {"name": "Carla Oliveira", "date": "2022-12-20", "review": "Narrativa envolvente e jogabilidade fluida.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/37.jpg"}
     ]
   },
   {
@@ -121,8 +121,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/546560/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Mateus Souza", "date": "2022-12-01", "review": "Experiência VR incrível, imersiva e detalhada.", "rating": 5},
-      {"name": "Larissa Rocha", "date": "2022-11-15", "review": "Muito bom, mas exige PC potente e VR.", "rating": 4}
+      {"name": "Mateus Souza", "date": "2022-12-01", "review": "Experiência VR incrível, imersiva e detalhada.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/51.jpg"},
+      {"name": "Larissa Rocha", "date": "2022-11-15", "review": "Muito bom, mas exige PC potente e VR.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/74.jpg"}
     ]
   },
   {
@@ -139,8 +139,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/620/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Bruno Costa", "date": "2023-03-15", "review": "Quebra-cabeças brilhantes e história divertida.", "rating": 5},
-      {"name": "Clara Mendes", "date": "2023-02-20", "review": "Muito criativo, adorei os personagens.", "rating": 5}
+      {"name": "Bruno Costa", "date": "2023-03-15", "review": "Quebra-cabeças brilhantes e história divertida.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/28.jpg"},
+      {"name": "Clara Mendes", "date": "2023-02-20", "review": "Muito criativo, adorei os personagens.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/43.jpg"}
     ]
   },
   {
@@ -149,7 +149,7 @@
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg",
     "backImage": "https://cdn.akamai.steamstatic.com/steam/apps/578080/library_hero.jpg",
     "genre": "Battle Royale, FPS",
-    "description": "PUBG: Battlegrounds é um battle royale shooter onde até 100 jogadores lutam em uma experiência de último homem de pé. Os jogadores devem localizar e coletar suas próprias armas, veículos, equipamentos e suprimentos, e derrotar todos os outros jogadores em um mapa estrategicamente em constante diminuição para ser o último sobrevivente. Com mapas múltiplos e diversos, desde terrenos urbanos até paisagens rurais, cada partida oferece uma experiência tática única e intensa. O jogo apresenta combate realístico com física de balas, uma variedade de armas e veículos, sistema de clima dinâmico, modos de jogo diversificados incluindo solo, dupla e esquadrão, além de eventos temáticos regulares e atualizações de conteúdo.",
+    "description": "PUBG: Battlegrounds é um battle royale shooter onde até 100 jogadores lutam em uma experiência de último homem de pé. Os jogadores devem localizar e coletar suas próprias armas, veículos, equipamentos e suprimentos, e derrotar todos os outros jogadores em um mapa estrategicamente em constante diminuição para be o último sobrevivente. Com mapas múltiplos e diversos, desde terrenos urbanos até paisagens rurais, cada partida oferece uma experiência tática única e intensa. O jogo apresenta combate realístico com física de balas, uma variedade de armas e veículos, sistema de clima dinâmico, modos de jogo diversificados incluindo solo, dupla e esquadrão, além de eventos temáticos regulares e atualizações de conteúdo.",
     "trailer": "https://www.youtube.com/watch?v=odM92ap8_c0",
     "community": [
       "https://cdn.akamai.steamstatic.com/steam/apps/578080/ss_1.jpg",
@@ -157,8 +157,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/578080/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Felipe Santos", "date": "2023-06-05", "review": "Muito divertido, mas algumas partidas são injustas.", "rating": 4},
-      {"name": "Juliana Rocha", "date": "2023-05-12", "review": "Ótima experiência, gráficos bons.", "rating": 4}
+      {"name": "Felipe Santos", "date": "2023-06-05", "review": "Muito divertido, mas algumas partidas são injustas.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/35.jpg"},
+      {"name": "Juliana Rocha", "date": "2023-05-12", "review": "Ótima experiência, gráficos bons.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/59.jpg"}
     ]
   },
   {
@@ -175,8 +175,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Rodrigo Lima", "date": "2023-04-10", "review": "Missões incríveis e mundo realista.", "rating": 5},
-      {"name": "Patrícia Martins", "date": "2023-03-05", "review": "Muito divertido, mas exige atenção para mods.", "rating": 4}
+      {"name": "Rodrigo Lima", "date": "2023-04-10", "review": "Missões incríveis e mundo realista.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/26.jpg"},
+      {"name": "Patrícia Martins", "date": "2023-03-05", "review": "Muito divertido, mas exige atenção para mods.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/48.jpg"}
     ]
   },
   {
@@ -193,8 +193,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/381210/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Marcos Almeida", "date": "2023-07-02", "review": "Muito suspense e partidas emocionantes.", "rating": 4},
-      {"name": "Renata Souza", "date": "2023-06-10", "review": "Ótimo jogo de terror cooperativo.", "rating": 5}
+      {"name": "Marcos Almeida", "date": "2023-07-02", "review": "Muito suspense e partidas emocionantes.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/33.jpg"},
+      {"name": "Renata Souza", "date": "2023-06-10", "review": "Ótimo jogo de terror cooperativo.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/55.jpg"}
     ]
   },
   {
@@ -203,7 +203,7 @@
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
     "backImage": "https://cdn.akamai.steamstatic.com/steam/apps/413150/library_hero.jpg",
     "genre": "Simulação, RPG",
-    "description": "Stardew Valley é uma simulação de RPG rural de mundo aberto. Você herdou a antiga fazenda do seu avô em Stardew Valley. Armado com ferramentas de segunda mão e algumas moedas, você parte para começar sua nova vida. Você pode viver da terra e transformar esses campos cobertos de mato em uma fazenda próspera? Não será fácil. Desde que a Joja Corporation chegou à cidade, as antigas maneiras de vida desapareceram. O Centro Comunitário, que antes era o centro de atividade da cidade, agora está em ruínas. Mas o vale parece estar cheio de oportunidades. Com um pouco de dedicação, você pode ser justo a pessoa para restaurar Stardew Valley à grandeza! Cultive, mine, pesque, cozinhe, explore cavernas misteriosas, customize sua fazenda, namoro e caase-se com alguém especial, e construa relacionamentos com mais de 30 habitantes únicos.",
+    "description": "Stardew Valley é uma simulação de RPG rural de mundo aberto. Você herdou a antiga fazenda do seu avô em Stardew Valley. Armado com ferramentas de segunda mão e algumas moedas, você parte para começar sua nova vida. Você pode viver da terra e transformar esses campos cobertos de mato em uma fazenda próspera? Não será fácil. Desde que a Joja Corporation chegou à cidade, as antigas maneiras de vida desapareceram. O Centro Comunitário, que antes era o centro de atividade da cidade, now está em ruínas. Mas o vale parece estar cheio de oportunidades. Com um pouco de dedicação, você pode ser justo a pessoa para restaurar Stardew Valley à grandeza! Cultive, mine, pesque, cozinhe, explore cavernas misteriosas, customize sua fazenda, namoro e caase-se com alguém especial, e construa relacionamentos com mais de 30 habitantes únicos.",
     "trailer": "https://www.youtube.com/watch?v=ot7uXNQskhs",
     "community": [
       "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_1.jpg",
@@ -211,8 +211,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/413150/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Luana Costa", "date": "2023-05-18", "review": "Relaxante e viciante, perfeito para passar o tempo.", "rating": 5},
-      {"name": "Gustavo Lima", "date": "2023-04-22", "review": "Adorei construir minha fazenda e interagir com a cidade.", "rating": 5}
+      {"name": "Luana Costa", "date": "2023-05-18", "review": "Relaxante e viciante, perfeito para passar o tempo.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/19.jpg"},
+      {"name": "Gustavo Lima", "date": "2023-04-22", "review": "Adorei construir minha fazenda e interagir com a cidade.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/31.jpg"}
     ]
   },
   {
@@ -221,7 +221,7 @@
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg",
     "backImage": "https://cdn.akamai.steamstatic.com/steam/apps/582010/library_hero.jpg",
     "genre": "Ação, RPG",
-    "description": "Monster Hunter: World apresenta um ecossistema vivo onde os jogadores assumem o papel de um caçador que explora o Novo Mundo, um continente remoto onde caçadores hábeis se aventuram em uma missão para rastrear e estudar monstros que migram lá a cada 10 anos. Como estes monstros podem causar grandes danos ao seu novo ambiente, os jogadores devem caçá-los para proteger sua nova casa. Os jogadores podem usar o ambiente para o seu benefício, como por exemplo usar as plantas nativas como cobertura ou atrair monstros em suas armadilhas. Além disso, o comportamento de monstros dinâmico significa que eles podem interagir entre si como fariam na natureza, levando a situações inesperadas e únicas. O jogo suporta até quatro jogadores cooperativos e requer trabalho em equipe estratégico para derrubar monstros maiores.",
+    "description": "Monster Hunter: World apresenta um ecossistema vivo onde os jogadores assumem o papel de um caçador that explora o Novo Mundo, um continente remoto onde caçadores hábeis se aventuram em uma missão para rastrear e estudar monstros que migram lá a cada 10 anos. Como estes monstros podem causar grandes danos ao seu novo ambiente, os jogadores devem caçá-los para proteger sua nova casa. Os jogadores podem usar o ambiente para o seu benefício, como por exemplo usar as plantas nativas como cobertura ou atrair monstros em suas armadilhas. Além disso, o comportamento de monstros dinâmico significa que eles podem interagir entre si como fariam na natureza, levando a situações inesperadas e únicas. O jogo suporta até quatro jogadores cooperativos e requer trabalho em equipe estratégico para derrubar monstros maiores.",
     "trailer": "https://www.youtube.com/watch?v=2sFQh1C8f30",
     "community": [
       "https://cdn.akamai.steamstatic.com/steam/apps/582010/ss_1.jpg",
@@ -229,8 +229,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/582010/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "Fernando Souza", "date": "2023-03-10", "review": "Combate incrível, gráficos lindos.", "rating": 5},
-      {"name": "Patrícia Lima", "date": "2023-02-15", "review": "Muito divertido, mas exige prática.", "rating": 4}
+      {"name": "Fernando Souza", "date": "2023-03-10", "review": "Combate incrível, gráficos lindos.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/42.jpg"},
+      {"name": "Patrícia Lima", "date": "2023-02-15", "review": "Muito divertido, mas exige prática.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/64.jpg"}
     ]
   },
   {
@@ -239,7 +239,7 @@
     "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
     "backImage": "https://cdn.akamai.steamstatic.com/steam/apps/730/library_hero.jpg",
     "genre": "FPS, Competitivo",
-    "description": "Counter-Strike: Global Offensive (CS:GO) expande no jogo de ação de equipe baseado em objetivo no qual se tornou famoso quando foi lançado há 19 anos. CS:GO apresenta novos mapas, personagens, armas e modos de jogo, e entrega versões atualizadas do conteúdo clássico de CS (de_dust2, etc.). CS:GO foi lançado para Windows, Mac, Xbox 360 e PlayStation 3 em agosto de 2012, e para Linux em 2014. O jogo apresenta modelos de jogo clássicos onde terroristas plantam bombas e contra-terroristas tentam detê-los, além de modos casuais e competitivos com sistema de ranking. Com mecânicas de tiro preciso, estratégia de equipe profunda, economia de armas complexa e uma cena competitiva próspera, CS:GO se tornou um dos esports mais populares do mundo com torneios de premiação milionária.",
+    "description": "Counter-Strike: Global Offensive (CS:GO) expande no jogo de ação de equipe baseado em objetivo no qual se tornou famoso quando foi lançado há 19 anos. CS:GO apresenta novos mapas, personagens, armas and modos de jogo, e entrega versões atualizadas do conteúdo clássico de CS (de_dust2, etc.). CS:GO foi lançado para Windows, Mac, Xbox 360 e PlayStation 3 in agosto de 2012, e para Linux em 2014. O jogo apresenta modelos de jogo clássicos onde terroristas plantam bombas e contra-terroristas tentam detê-los, além de modos casuais e competitivos com sistema de ranking. Com mecânicas de tiro preciso, estratégia de equipe profunda, economia de armas complexa e uma cena competitiva próspera, CS:GO se tornou um dos esports mais populares do mundo com torneios de premiação milionária.",
     "trailer": "https://www.youtube.com/watch?v=edYCtaNueQY",
     "community": [
       "https://cdn.akamai.steamstatic.com/steam/apps/730/ss_1.jpg",
@@ -247,8 +247,8 @@
       "https://cdn.akamai.steamstatic.com/steam/apps/730/ss_3.jpg"
     ],
     "reviews": [
-      {"name": "André Martins", "date": "2023-01-20", "review": "Clássico, competitivo e divertido.", "rating": 5},
-      {"name": "Carolina Ribeiro", "date": "2023-01-10", "review": "Ótima experiência, mas às vezes tóxico.", "rating": 4}
+      {"name": "André Martins", "date": "2023-01-20", "review": "Clássico, competitivo e divertido.", "rating": 5, "avatar": "https://randomuser.me/api/portraits/women/25.jpg"},
+      {"name": "Carolina Ribeiro", "date": "2023-01-10", "review": "Ótima experiência, mas às vezes tóxico.", "rating": 4, "avatar": "https://randomuser.me/api/portraits/women/47.jpg"}
     ]
   }
 ]
