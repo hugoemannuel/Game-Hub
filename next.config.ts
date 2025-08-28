@@ -20,7 +20,6 @@ const nextConfig: NextConfig = {
   compiler: {
     styledComponents: true,
   },
-  swcMinify: true,
 };
 
 export default nextConfig;

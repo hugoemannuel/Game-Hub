@@ -15,5 +15,4 @@ export interface IGame {
   trailer: string;
   backImage: string;
   reviews: IReview[];
-  community: string[];
 }
